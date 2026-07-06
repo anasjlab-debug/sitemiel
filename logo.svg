@@ -1,0 +1,18 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="honeyGradient" x1="120" y1="20" x2="120" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC148"/>
+      <stop offset="1" stop-color="#F2932C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="104" fill="#F3F7F2" stroke="#4FAC2D" stroke-width="12"/>
+  <path d="M66 140C66 140 82 104 122 104C162 104 178 140 178 140" fill="#7DC233"/>
+  <path d="M111 49C119.7 51.1 136.5 72.1 123 89C109.5 105.9 75.5 115 69 93C62.5 71 101.9 43.9 111 49Z" fill="#61AE25"/>
+  <path d="M157 56C162 62 169 76 161 88C153 100 131 105 122 98C113 91 111 72 128 59C145 46 154 49 157 56Z" fill="#68C131"/>
+  <rect x="94" y="68" width="52" height="16" rx="8" fill="url(#honeyGradient)"/>
+  <rect x="88" y="92" width="68" height="16" rx="8" fill="url(#honeyGradient)"/>
+  <rect x="88" y="116" width="68" height="16" rx="8" fill="url(#honeyGradient)"/>
+  <rect x="94" y="140" width="52" height="16" rx="8" fill="url(#honeyGradient)"/>
+  <circle cx="88" cy="138" r="5" fill="#F6B23B"/>
+  <circle cx="150" cy="86" r="4" fill="#F6B23B"/>
+</svg>
