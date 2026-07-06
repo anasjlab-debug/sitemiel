@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="متجر عربي فاخر للعسل الطبيعي، يقدم تجربة بصرية استثنائية ومجموعة مختارة من الأنواع الأصيلة من المناحل."/>
+    <meta name="theme-color" content="#FAF7F0" />
+    <title>التعاونية الفلاحية الشراب الطيب | عسل طبيعي فاخر</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <img src="images/background.jpg" alt="مشهد فخم للعسل والطبيعة" class="hero-video" />
+      <div class="hero-overlay"></div>
+
+      <nav class="navbar container" id="navbar">
+        <a href="#home" class="brand">
+          <img src="images/logo.jpg" alt="شعار التعاونية الفلاحية الشراب الطيب" class="brand-logo" />
+          <span>التعاونية الفلاحية الشراب الطيب</span>
+        </a>
+        <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">الرئيسية</a>
+          <a href="#products">منتجاتنا</a>
+          <a href="#pack">Pack</a>
+          <a href="#about">من نحن</a>
+          <a href="#contact">تواصل معنا</a>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="بحث">⌕</button>
+          <button class="icon-btn" aria-label="المفضلة">♡</button>
+          <button class="icon-btn cart-toggle" aria-label="السلة">🛍️ <span id="cartCount">0</span></button>
+          <button class="icon-btn" aria-label="الحساب">👤</button>
+        </div>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow">طبيعة • نقاء • فخامة</p>
+          <h1>ليس كل عسلٍ يُسمى عسلاً...</h1>
+          <p class="intro">
+            نقدم لك العسل الطبيعي كما خلقته الطبيعة، نقيًا، أصيلًا، ومختارًا بعناية من مناحل تنمو بين الزهور والضوء الذهبي.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#products">اكتشف منتجاتنا</a>
+            <a class="btn btn-secondary" href="#about">تعرف على قصتنا</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>طبيعي 100%</li>
+            <li>مناحل مختارة</li>
+            <li>توصيل سريع</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card">
+            <span class="badge">الأكثر مبيعًا</span>
+            <div class="visual-image">
+              <img src="images/daghmous.jpg" alt="برطمان عسل فاخر" />
+            </div>
+            <div class="visual-meta">
+              <h3>عسل الزهور البرية</h3>
+              <p>رائحة زهرية خفيفة ونكهة غنية تنسجم مع كل لحظة.</p>
+              <div class="price"> 120 درهم </div>
+              <a href="#products" class="text-link">اطلب الآن</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="stats container" aria-label="أرقامنا">
+        <article>
+          <strong>12+</strong>
+          <span>سنوات من العناية بالنحل</span>
+        </article>
+        <article>
+          <strong>4.9/5</strong>
+          <span>تقييم العملاء</span>
+        </article>
+        <article>
+          <strong>100%</strong>
+          <span>عسل طبيعي خالٍ من الإضافات</span>
+        </article>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="eyebrow">من نحن</p>
+            <h2>حرفةٌ تنمو من الطبيعة، وتُقدَّم بلمسةٍ فاخرة</h2>
+            <p>
+              نحن نختار المناحل بعناية، ونحرص على أن تصل كل معلقة من العسل إلى طاولتك وهي تحمل نقاءً أصيلًا، واهتمامًا دقيقًا بكل خطوة في العملية.
+            </p>
+          </div>
+          <div class="about-card">
+            <ul>
+              <li>اختيار مناشل طبيعية ومُحافظة على الجودة</li>
+              <li>تغليف فاخر يحافظ على النكهة والقدرة على الحفظ</li>
+              <li>شفافية في كل مرحلة من جمع العسل إلى التوصيل</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="products">
+        <div class="section-heading">
+          <p class="eyebrow">إبداعنا في كل برطمان</p>
+          <h2>اختيار فاخر من أجود الأنواع</h2>
+          <p class="muted">مزيج من الأصالة، النكهة، والهدوء الذي يتركه العسل الطبيعي في كل لحظة.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="images/nouara.jpg" alt="برطمان عسل النوارة" />
+            <div class="product-content">
+              <h3>عسل النوارة</h3>
+              <p>رائحة زهرية خفيفة ونكهة مميزة تجمع بين اللمعان والدفء.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 45 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل النوارة">أضف</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/a3chab.jpg" alt="برطمان عسل الأعشاب" />
+            <div class="product-content">
+              <h3>عسل الأعشاب</h3>
+              <p>مميز بطعمه العشبي، ويُفضّل لمن يحبون الأصالة والعمق.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 50 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل الأعشاب">أضف</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/kaliptous.jpg" alt="برطمان عسل الأوكاليبتوس" />
+            <div class="product-content">
+              <h3>عسل الأوكاليبتوس</h3>
+              <p>طعم منعش وهادئ، مناسب لمن يفضلون الرائحة العطرية.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 70 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل الأوكاليبتوس">أضف</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/daghmous.jpg" alt="برطمان عسل الدغموس" />
+            <div class="product-content">
+              <h3>عسل الدغموس</h3>
+              <p>غني بالنكهة ومناسب لذوي الذوق الرفيع في العسل الأصيل.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 120 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل الدغموس">أضف</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/za3tar.jpg" alt="برطمان عسل الزعتر" />
+            <div class="product-content">
+              <h3>عسل الزعتر</h3>
+              <p>مشرق ونباتي، يضيف لمسة طبيعية ومناسبة لشاي الصباح.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 160 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل الزعتر">أضف</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/kharoub.jpg" alt="برطمان عسل الخروب" />
+            <div class="product-content">
+              <h3>عسل الخروب</h3>
+              <p>عسل دافئ مع طابع مميز، يُقدّم كاختيار فخم ومميز.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 65 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل الخروب">أضف</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/product-wild.svg" alt="برطمان عسل الشهدة" />
+            <div class="product-content">
+              <h3>عسل الشهدة</h3>
+              <p>أكثر أنواع العسل نعومة، مع لمسة حلوة وراقية جدًا.</p>
+              <div class="product-meta">
+                <span>وزن: 1 Kg</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="product-footer">
+                <strong> 139 درهم</strong>
+                <button class="btn btn-small add-to-cart" data-product="عسل الشهدة">أضف</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="pack">
+        <div class="section-heading">
+          <p class="eyebrow">Pack مخصص</p>
+          <h2>اختيارات فاخرة مقدمة كهدية أو كخيار يومي</h2>
+          <p class="muted">جمع بين أنواع العسل المفضلة في باقة متناسقة، مثالية للهدية أو للاستمتاع بتجربة متنوعة.</p>
+        </div>
+        <div class="pack-grid">
+          <article class="pack-card featured">
+            <h3>باقة الهدية الملكية</h3>
+            <p>ثلاثة أنواع مختارة من العسل مع تغليف فاخر وورقة تعريفية.</p>
+            <strong> 1999 درهم</strong>
+            <button class="btn btn-primary add-to-cart" data-product="باقة الهدية الملكية">أضف إلى السلة</button>
+          </article>
+          <article class="pack-card">
+            <h3>باقة الصباح</h3>
+            <p>مزيج من العسل الناعم والمناسب للشاي أو الخبز.</p>
+            <strong> 1299 درهم</strong>
+            <button class="btn btn-small add-to-cart" data-product="باقة الصباح">أضف</button>
+          </article>
+          <article class="pack-card">
+            <h3>باقة العائلة</h3>
+            <p>اختيار كبير من الأنواع مع سعر مناسب للاستخدام اليومي.</p>
+            <strong> 1599 درهم</strong>
+            <button class="btn btn-small add-to-cart" data-product="باقة العائلة">أضف</button>
+          </article>
+        </div>
+      </section>
+
+      
+
+      
+
+      <section class="section container" id="testimonials">
+        <div class="section-heading">
+          <p class="eyebrow">آراء العملاء</p>
+          <h2>تجارب تعكس الجودة والدفء</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>“أول مرة أرى عسلًا بهذا النقاء والروعة، وأصبح من منتجاتنا الأساسية في كل صباح.”</p>
+            <strong>سارة المري</strong>
+          </article>
+          <article class="testimonial-card">
+            <p>“التغليف احترافي جدًا، والتوصيل سريع، والعسل طعمه رائع ومميز جدًا.”</p>
+            <strong>عبدالله فهد</strong>
+          </article>
+          <article class="testimonial-card">
+            <p>“جودة استثنائية، وأنا أشتريه هدية لأن كل تفاصيله تحمل لمسة فاخرة.”</p>
+            <strong>نورا السعيد</strong>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <button class="assistant-fab" id="assistantToggle">اسأل خبير العسل</button>
+
+    <div class="assistant-panel" id="assistantPanel">
+      <div class="assistant-head">
+        <h3>خبير العسل</h3>
+        <button id="assistantClose">✕</button>
+      </div>
+      <p>أستطيع أن أُقترح لك المنتج الأنسب بناءً على احتياجك.</p>
+      <div class="assistant-questions">
+        <button data-question="ما الأفضل للمناعة؟">ما الأفضل للمناعة؟</button>
+        <button data-question="هل يناسب الأطفال؟">هل يناسب الأطفال؟</button>
+        <button data-question="ما الفرق بين الأنواع؟">ما الفرق بين الأنواع؟</button>
+      </div>
+      <div class="assistant-answer" id="assistantAnswer">اختر سؤالًا وسأجيب لك مباشرة.</div>
+    </div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-label="السلة">
+      <div class="cart-head">
+        <h3>سلة التسوق</h3>
+        <button class="close-cart" id="closeCart">✕</button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <p class="empty-cart">السلة فارغة حالياً</p>
+      </div>
+      <div class="cart-summary">
+        <div class="summary-row"><span>الإجمالي</span><strong id="cartTotal">0 درهم</strong></div>
+        <button class="btn btn-primary checkout-btn" id="checkoutBtn">متابعة الدفع</button>
+      </div>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="checkout-modal" id="checkoutModal">
+      <div class="checkout-card">
+        <div class="checkout-head">
+          <h3>الدفع</h3>
+          <button id="closeCheckout">✕</button>
+        </div>
+        <div class="progress-bar"><span id="progressFill"></span></div>
+        <form class="checkout-form" id="checkoutForm">
+          <div class="step active" data-step="0">
+            <label>الاسم بالكامل<input type="text" required /></label>
+            <label>رقم الهاتف<input type="tel" required /></label>
+            <label>البريد الإلكتروني<input type="email" /></label>
+          </div>
+          <div class="step" data-step="1">
+            <label>العنوان<input type="text" required /></label>
+            <label>المدينة<input type="text" required /></label>
+            <label>الرمز البريدي<input type="text" /></label>
+          </div>
+          <div class="step" data-step="2">
+            <label>طريقة الدفع<select><option>الدفع عند الاستلام</option><option>بطاقة</option></select></label>
+            <label>ملاحظات<input type="text" /></label>
+          </div>
+          <div class="checkout-actions">
+            <button type="button" class="btn btn-secondary" id="prevStep">السابق</button>
+            <button type="button" class="btn btn-primary" id="nextStep">التالي</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-content">
+        <div>
+          <h3>التعاونية الفلاحية الشراب الطيب</h3>
+          <p>عسل طبيعي فخم يقدّم جوًا من الهدوء، الأصالة، والاحتراف.</p>
+          <div style="margin-top: 1.5rem; font-size: 0.95rem;">
+            <p style="margin-bottom: 0.5rem; color: rgba(255,255,255,0.9);"><strong>العنوان:</strong> دوار اولاد امحمد جماعة المهادي</p>
+            <p style="color: rgba(255,255,255,0.9);"><strong>الهاتف:</strong> <a href="tel:+212763418809" dir="ltr" style="display: inline-block;">+212 763-418809</a></p>
+          </div>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+          <a href="#products">المنتجات</a>
+          <a href="#blog">المدونة</a>
+          <a href="#contact">تواصل معنا</a>
+        </div>
+        <div>
+          <h4>وسائل التواصل</h4>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">WhatsApp</a>
+        </div>
+        <div>
+          <h4>الاشتراك</h4>
+          <input type="email" placeholder="بريدك الإلكتروني" />
+          <button class="btn btn-primary">اشترك</button>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> التعاونية الفلاحية الشراب الطيب. جميع الحقوق محفوظة.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
